@@ -93,7 +93,7 @@ export function Home() {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 1, duration: 1 }}
                         >
-                            Where you can showcase your skills and connect with
+                            Where we can showcase the skills and connect with
                         </motion.span>{" "}
                         <motion.span
                             className="font-semibold text-yellow-300 relative"
@@ -101,7 +101,7 @@ export function Home() {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 1, duration: 1 }}
                         >
-                            Fellow Students
+                            Students
                             <motion.svg
                                 className="absolute -top-2 -right-2 w-full h-full"
                                 viewBox="0 0 100 100"
