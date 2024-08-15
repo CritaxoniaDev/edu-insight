@@ -101,7 +101,7 @@ export function Home() {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 1, duration: 1 }}
                         >
-                            Students
+                            students
                             <motion.svg
                                 className="absolute -top-2 -right-2 w-full h-full"
                                 viewBox="0 0 100 100"
