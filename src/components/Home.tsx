@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
 
-const words = ['Software Engineering', 'Web Development', 'Data Science', 'Artificial Intelligence', 'Cybersecurity'];
+const words = ['Software Engineering', 'Web Development', 'Data Science', 'Artificial Intelligence'];
 export function Home() {
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -93,7 +93,7 @@ export function Home() {
                             animate={{ opacity: 1 }}
                             transition={{ delay: 1, duration: 1 }}
                         >
-                            Explore the comprehensive roadmap for a
+                            Where you can showcase your skills and connect with fellow students.
                         </motion.span>{" "}
                         <motion.span
                             className="font-semibold text-yellow-300 relative"
