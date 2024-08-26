@@ -1,10 +1,11 @@
 import { Header } from "@/components/Header"
 import { Home } from "@/components/Home"
 import { AnimatedBeamMultipleOutputDemo } from "@/components/Skills"
+import { Toaster } from "@/components/ui/toaster"
 
 export default function HomePage() {
   return (
-    <div className="bg-background min-h-screen">
+    <div className="bg-background min-h-screen overflow-hidden">
       <Header />
       <main>
         <Home />
@@ -13,6 +14,7 @@ export default function HomePage() {
           <AnimatedBeamMultipleOutputDemo className="mb-16" />
         </section>
       </main>
+      <Toaster />
     </div>
   )
 }
